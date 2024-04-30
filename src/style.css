@@ -19,6 +19,16 @@
   border: 2px solid var(--third-colour);
   padding: 0;
 }
+.content-box {
+  border-radius: 20px;
+  color: var(--text-colour);
+  margin: 10px;
+  padding: 15px 25px;
+}
+.newsletter {
+  padding: 20px;
+  margin: 20px;
+}
 header,
 footer {
   background-color: var(--header);
@@ -46,5 +56,96 @@ header .date {
   text-align: right;
   font-size: 20px;
 }
-@media screen (max-width: 570px;) {
+h1 {
+  text-align: center;
+  line-height: normal;
+}
+h1 .welcome {
+  font-size: 20px;
+  color: var(--small-header-colour);
+  padding: 0;
+  margin: 0;
+}
+h1 .month {
+  font-size: 80px;
+  color: var(--big-header-colour);
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+a {
+  color: var(--text-colour);
+}
+hr {
+  color: var(--third-colour);
+}
+.from {
+  font-size: 40px;
+  color: var(--small-header-colour);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.quote {
+  background-color: var(--box-colour);
+  height: 190px;
+  margin: auto;
+}
+.citation {
+  color: var(--text-colour);
+  text-align: center;
+  font-size: 18px;
+}
+.cite {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.newsletter-codirector {
+  height: 170px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.co-director {
+  text-align: center;
+  font-weight: bold;
+  color: var(--third-colour);
+}
+.co-director-two p {
+  color: var(--big-header-colour);
+}
+.hello {
+  color: var(--big-header-colour);
+}
+.message {
+  color: var(--small-header-colour);
+  font-weight: bold;
+}
+@media (max-width: 570px) {
+  h1 .month {
+    font-size: 40px;
+  }
+  h1 .welcome {
+    font-size: 15px;
+  }
+  header .date {
+    font-size: 17px;
+  }
+  .from {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  p .cite,
+  p .author {
+    font-size: 13px;
+  }
 }
