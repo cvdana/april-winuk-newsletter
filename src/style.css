@@ -1,0 +1,49 @@
+:root {
+  --header: #fda8df;
+  --small-header-colour: #783a77;
+  --big-header-colour: #dd429d;
+  --third-colour: #008080;
+  --socials: #877bb4;
+  --awareness: #a167a0;
+  --box-colour: #d46ba9;
+  --body-colour: #2e9797;
+  --blog-one: #945393;
+  --blog-two: #4da6a6;
+  --blog-three: #d56daa;
+  --blog-review: #f9f4f5;
+  --text-colour: #fdfafa;
+  --text-colourbr: #613c60;
+}
+.container {
+  max-width: 960px;
+  border: 2px solid blue;
+}
+header,
+footer {
+  background-color: var(--header);
+  width: 100%;
+}
+header {
+  height: 175px;
+}
+footer {
+  height: 75px;
+}
+footer a {
+  padding: 0 15px;
+  color: var(--text-colour);
+}
+header img {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+header .date {
+  color: var(--text-colour);
+  margin: 0;
+  padding: 0 15px 20px;
+  text-align: right;
+  font-size: 20px;
+}
+@media screen (max-width: 570px;) {
+}
