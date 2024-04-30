@@ -18,6 +18,7 @@
   max-width: 960px;
   border: 1px solid var(--third-colour);
   padding: 0;
+  letter-spacing: 0.1rem;
 }
 .content-box {
   border-radius: 20px;
@@ -222,6 +223,9 @@ hr {
 .contact-blog a {
   color: var(--small-header-colour);
 }
+.contact-blog {
+  text-align: center;
+}
 .research a,
 .paragraph a,
 .emailus a {
@@ -231,6 +235,9 @@ hr {
   text-overflow: ellipsis;
 }
 @media (max-width: 570px) {
+  .container {
+    letter-spacing: normal;
+  }
   h1 .month {
     font-size: 40px;
   }
