@@ -16,7 +16,7 @@
 }
 .container {
   max-width: 960px;
-  border: 2px solid var(--third-colour);
+  border: 1px solid var(--third-colour);
   padding: 0;
 }
 .content-box {
