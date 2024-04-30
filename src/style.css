@@ -180,9 +180,7 @@ hr {
   p .author {
     font-size: 13px;
   }
-  .socialmedia h2 {
-    padding-left: 10px;
-  }
+
   .socialmedia ul {
     font-size: 15px;
     padding-left: 50px;
@@ -190,5 +188,8 @@ hr {
   .socialmedia img {
     display: block;
     margin: auto;
+  }
+  .content-box {
+    width: 100%;
   }
 }
