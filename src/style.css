@@ -155,11 +155,17 @@ hr {
 .events-recap {
   background-color: var(--socials);
 }
+.event-final {
+  margin-top: 30px;
+}
 .table {
   color: #fff;
 }
 .socials {
-  background-color: var(--socials);
+  background-color: var(--blog-one);
+}
+.socials-two {
+  background-color: var(--big-header-colour);
 }
 .awareness {
   background-color: var(--awareness);
