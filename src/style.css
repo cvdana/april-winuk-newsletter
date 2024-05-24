@@ -149,8 +149,14 @@ hr {
   height: 300px;
 }
 
-.events-recap {
+.careers {
   background-color: var(--body-colour);
+}
+.events-recap {
+  background-color: var(--socials);
+}
+.table {
+  color: #fff;
 }
 .socials {
   background-color: var(--socials);
