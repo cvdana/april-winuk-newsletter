@@ -13,6 +13,7 @@
   --blog-review: #f9f4f5;
   --text-colour: #fdfafa;
   --text-colourbr: #613c60;
+  --career-box: #5782ac;
 }
 .container {
   max-width: 960px;
@@ -152,6 +153,24 @@ hr {
 .careers {
   background-color: var(--body-colour);
 }
+.careers-skills {
+  background-color: var(--career-box);
+}
+.skills {
+  width: 800px;
+  height: 500px;
+}
+.youtube-careers {
+  width: 410px;
+  height: 240px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: #3c5366;
+}
+.youtube-careers p {
+  text-align: center;
+  padding: 45px 15px 0px;
+}
 .events-recap {
   background-color: var(--socials);
 }
@@ -279,7 +298,19 @@ hr {
   p .author {
     font-size: 13px;
   }
-
+  .youtube-careers {
+    width: 250px;
+    height: 270px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: #3c5366;
+  }
+  .youtube-careers a {
+    font-size: 13px;
+  }
+  .skills {
+    height: 305px;
+  }
   .socialmedia ul {
     font-size: 15px;
     padding-left: 50px;
