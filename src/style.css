@@ -190,6 +190,12 @@ hr {
 .table {
   color: #fff;
 }
+.socials img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
 .socials {
   background-color: var(--blog-one);
 }
@@ -197,7 +203,10 @@ hr {
   background-color: var(--big-header-colour);
 }
 .awareness {
-  background-color: var(--awareness);
+  background-color: #5983ad;
+}
+.new-volunteers {
+  background-color: #3983ca;
 }
 .awareness h2 {
   text-transform: uppercase;
