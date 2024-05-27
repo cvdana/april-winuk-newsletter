@@ -156,7 +156,7 @@ hr {
 .careers-skills {
   background-color: var(--career-box);
 }
-.text {
+.skills-text {
   background-image: url("/images/skills4.jpg");
   background-size: cover;
 }
