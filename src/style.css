@@ -252,6 +252,9 @@ hr {
 .blog-review p {
   padding: 10px;
 }
+.blog-month {
+  background-color: #e7e7e3;
+}
 .dashed {
   border: 5px dashed;
 }
