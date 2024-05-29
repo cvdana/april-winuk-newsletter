@@ -247,13 +247,19 @@ hr {
 .blog-review a,
 .blog-review h3,
 .blog-review ul {
-  color: var(--text-colourbr);
+  color: #613c61;
+  font-weight: 500;
+  text-align: center;
 }
 .blog-review p {
   padding: 10px;
 }
 .blog-month {
   background-color: #e7e7e3;
+  margin-top: 0;
+}
+.decor {
+  border-radius: 20px;
 }
 .dashed {
   border: 5px dashed;
@@ -262,21 +268,18 @@ hr {
   background-color: #9bc8c9;
   text-align: center;
 }
-.section-one ul {
-  text-align: left;
-  margin: 0 auto;
-}
+
 .section-two {
-  background-color: #d9a0c1;
+  background-color: #52a6a7;
 }
 .section-three-first {
-  background-color: #f0d0e3;
+  background-color: #efc4dd;
 }
 .section-three-second {
   border-color: #86245b;
 }
 .section-four {
-  border-color: #3c5367;
+  border-color: #ac698e;
 }
 .paragraph {
   text-align: center;
